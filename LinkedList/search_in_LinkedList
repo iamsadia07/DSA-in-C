@@ -28,7 +28,7 @@ third ->next = NULL;
 
 
 struct Node *ptr;
-ptr = head;             // point to very first Node
+ptr = head;            // point to very first Node
 
 
 while(ptr!=NULL) {
