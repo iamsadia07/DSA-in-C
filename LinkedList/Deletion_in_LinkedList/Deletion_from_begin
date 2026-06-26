@@ -20,6 +20,12 @@ head ->link = second;
 second -> link = third;
 third -> link = NULL;
 
+//Empty LL
+if (head == NULL) {
+    printf("List is empty");
+    return 0;
+}
+
 struct Node *ptr;
 ptr = head;
 
