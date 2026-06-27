@@ -9,7 +9,7 @@ struct Node {
 int main() {
 struct Node *head = (struct Node *)malloc(sizeof(struct Node));
 struct Node *second = (struct Node *)malloc(sizeof(struct Node));
-struct Node *third = (struct Node *)malloc(sizeof(struct Node));
+struct Node *third = (struct Node *)malloc(sizeof(struct Node)); 
 
 //Assign value
 head -> data = 10;
