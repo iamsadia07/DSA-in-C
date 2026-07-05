@@ -10,7 +10,7 @@ A Stack is a linear data structure that follows the **LIFO (Last In First Out)**
 
 👉 The last element inserted is the first one to be removed.
 
-----
+---
 
 ## 🔧 Operations Implemented
 
@@ -47,9 +47,9 @@ A Stack is a linear data structure that follows the **LIFO (Last In First Out)**
 
 ## 🎯 Learning Goal
 
-This project helps in understanding stack operations and builds a strong foundation for advanced topics like recursion, expression evaluation, and backtracking.
+This project helps in understanding stack operations and builds a strong foundation for advanced topics like recursion, expression evaluation, etc.
 
 ---
 
 
----
+
