@@ -25,7 +25,7 @@ int findMin(struct node* root) {
 int main() {
 
    
-    struct node* root = (struct node*)malloc(sizeof(struct node));
+    struct node* root = (struct node*)malloc(sizeof(struct node));          //manually
     struct node* n1 = (struct node*)malloc(sizeof(struct node));   
     struct node* n2 = (struct node*)malloc(sizeof(struct node));
     struct node* n3 = (struct node*)malloc(sizeof(struct node));
