@@ -3,34 +3,26 @@
 
 struct Node {
     int data;
-    struct Node *next;
+    struct Node* next;
 
-};
+struct Node *newNode(int data){
+    struct Node* newNode = (struct Nde *)malloc(sizeof(struct Node);
+    newNode -> data = data;
+    newNode -> next = NULL;
+return newNode;
+
+}
 
 int main() {
- struct Node *head = (struct Node*)malloc(sizeof(struct Node));
- struct Node *second = (struct Node*)malloc(sizeof(struct Node)); 
-struct Node * third = (struct Node*)malloc(sizeof(struct Node));
+ struct Node *head = NULL;
 
-//Assign values
-
-head ->data = 10;
-second ->data = 20;
-third ->data = 30;
-
-int key = 20;
-
-//Connection between Nodes
-
-head ->next = second;
-second ->next = third;
-third ->next = NULL;
+    head = newNode(10);
+    head -> next = newNode(20);
+    head -> next -> next = newNode(30);
 
 
 struct Node *ptr;
 ptr = head;            // point to very first Node
-
-
 while(ptr!=NULL) {
 
     if(ptr ->data == key) {
