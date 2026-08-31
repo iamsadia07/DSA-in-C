@@ -21,7 +21,7 @@ int main() {
 
     
     head->next = second;
-second->next = third;
+    second->next = third;
     third->next = NULL;
 
     // Traversal
